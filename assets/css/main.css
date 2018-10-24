@@ -2023,6 +2023,7 @@ input, select, textarea {
 						object-position: center;
 					}
 
+
 					#main > .panel.intro .pic .arrow {
 						display: block;
 						position: absolute;
@@ -2096,8 +2097,9 @@ input, select, textarea {
 					}
 
 						#main > .panel.intro .pic {
-							height: 25em;
-							width: 100%;
+							height: 30em;
+							width: 50%;
+							margin-bottom: 40px;
 						}
 
 						#main > .panel.intro header {
@@ -2110,7 +2112,8 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
-						height: 20em;
+						height: 40em;
+						width: 60%;
 					}
 
 					#main > .panel.intro header {
@@ -2123,6 +2126,12 @@ input, select, textarea {
 						}
 
 				}
+			@media screen and (max-width: 550px){
+				#main > .panel.intro .pic {
+					height: 20em;
+					width: 50%;
+				}
+			}
 
 /* Footer */
 
@@ -2173,3 +2182,9 @@ input, select, textarea {
 			}
 
 		}
+
+.social__list{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
