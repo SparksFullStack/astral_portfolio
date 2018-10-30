@@ -90,7 +90,7 @@ input, select, textarea {
 	text-decoration: none;
 	color: black;
 	border-bottom: 1px solid black;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	transition: color 0.2s;
 }
 
