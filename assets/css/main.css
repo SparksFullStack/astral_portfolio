@@ -2215,6 +2215,7 @@ input, select, textarea {
 	list-style: none;
 	display: flex;
 	justify-content: center;
+	
 }
 
 .site-header {
