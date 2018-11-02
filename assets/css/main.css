@@ -2216,3 +2216,38 @@ input, select, textarea {
 	display: flex;
 	justify-content: center;
 }
+
+.site-header {
+	margin-bottom: 15px;;
+	text-align: center;
+	border-bottom: 1px solid black;
+	/* padding-bottom: 3px; */
+	font-size: 1.5rem;
+}
+
+.site-header-link:link,
+.site-header-link:visited {
+	text-decoration: none; 
+	transition: color 0.2s;
+	color: black;
+	font-weight: 400;
+}
+
+.site-header-link:hover,
+.site-header-link:active {
+	color: #aaa; 
+}
+
+.project-image-container {
+	background-color: #000;
+	
+}
+
+.project-image {
+	opacity: 0.8;
+	transition: opacity 0.2s;
+}
+
+.project-image:hover {
+	opacity: 1;
+}
