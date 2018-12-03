@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio website I put together. Uses HTML, CSS, Bootstrap, and SCSS.
+My portfolio website; uses HTML, CSS, Bootstrap, and SCSS.
