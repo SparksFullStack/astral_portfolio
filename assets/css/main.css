@@ -2254,3 +2254,43 @@ input, select, textarea {
 .project-image:hover {
 	opacity: 1;
 }
+
+.new-footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.social-icons {
+	font-size: 3rem;
+	margin-top: 15px;
+	margin-left: 10px;
+	color: #fff;
+	transition: color .25s;
+}
+
+.social-icons:hover,
+.social-icons:active {
+	color: #aaa;
+}
+
+@media screen and (max-width: 982px) {
+	#main > .panel.intro .pic {
+		transform: translateX(17px);
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#main > .panel.intro .pic {
+		transform: translateX(10px);
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#main > .panel.intro .pic {
+		transform: translateX(7px);
+		width: 60%;
+	}
+}
+
