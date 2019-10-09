@@ -2274,6 +2274,11 @@ input, select, textarea {
 	color: #aaa;
 }
 
+.writing-list,
+.writing-list > li {
+	padding-left: 0 !important;
+}
+
 @media screen and (max-width: 982px) {
 	#main > .panel.intro .pic {
 		transform: translateX(17px);
